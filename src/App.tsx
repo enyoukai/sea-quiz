@@ -1,33 +1,36 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/test" element={<Page/>} />
+
+      </Routes>
+
+    </Router>
+  )
+}
+
+function Home()
+{
+  return (
+    <div>Home</div>
+  )
+}
+function Page()
+{
+  return (
+    <div className='w-screen h-screen bg-[#dcbdff]'>
+      <div className='flex flex-col items-center h-full p-10 gap-5'>
+        <div className="w-1/4 text-center text-gray-900 text-xl font-comfortaa font-bold">Q8/12: Suddenly, the robot glides in, it whispers something to the cats that makes them stop.</div>
+        <img src="https://via.placeholder.com/150" alt="robot" className="w-1/4 rounded-full" />
+        <button className="bg-gray-200 text-gray-900 p-2 rounded-sm">turn into a sigma</button>
+        <button className="bg-gray-200 text-gray-900 p-2 rounded-sm">turn into a sigma</button>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
