@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 
-import Home from './pages/Home'
-import Test from './pages/Test'
-import Results from './pages/Results'
+import Home from './pages/HomePage'
+import Test from './pages/TestPage'
+import Results from './pages/ResultsPage'
 
 function App() {
   return (
