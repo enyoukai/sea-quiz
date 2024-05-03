@@ -1,22 +1,114 @@
 [
 	{
 		"question": "Question 1",
-		"responseOne": "q1a1",
-		"responseTwo": "q2a2"
+		"responseOne": 
+		{
+			"text": "q1a1",
+			"values": {"E": 1, "I": 0, "S": 0, "N": 1, "T": 1, "F": 0, "J": 1, "P": 0}
+		},
+		"responseTwo": 
+		{
+			"text": "q1a2",
+			"values": {"E": 0, "I": 1, "S": 1, "N": 0, "T": 0, "F": 1, "J": 0, "P": 1}
+		}
 	},
-	{
-		"question": "Question 2",
-		"responseOne": "q2a1",
-		"responseTwo": "q2a2"
-	},
-	{
-		"question": "Question 3",
-		"responseOne": "q3a1",
-		"responseTwo": "q3a2"
-	},
-	{
-		"question": "Question 4",
-		"responseOne": "q4a1",
-		"responseTwo": "q4a2"
-	}
+    {
+        "question": "Question 2",
+        "responseOne": {
+            "text": "q2a1",
+            "values": {"E": 1, "I": 0, "S": 0, "N": 1, "T": 1, "F": 0, "J": 1, "P": 0}
+        },
+        "responseTwo": {
+            "text": "q2a2",
+            "values": {"E": 0, "I": 1, "S": 1, "N": 0, "T": 0, "F": 1, "J": 0, "P": 1}
+        }
+    },
+    {
+        "question": "Question 3",
+        "responseOne": {
+            "text": "q3a1",
+            "values": {"E": 1, "I": 0, "S": 0, "N": 1, "T": 1, "F": 0, "J": 1, "P": 0}
+        },
+        "responseTwo": {
+            "text": "q3a2",
+            "values": {"E": 0, "I": 1, "S": 1, "N": 0, "T": 0, "F": 1, "J": 0, "P": 1}
+        }
+    },
+    {
+        "question": "Question 4",
+        "responseOne": {
+            "text": "q4a1",
+            "values": {"E": 1, "I": 0, "S": 0, "N": 1, "T": 1, "F": 0, "J": 1, "P": 0}
+        },
+        "responseTwo": {
+            "text": "q4a2",
+            "values": {"E": 0, "I": 1, "S": 1, "N": 0, "T": 0, "F": 1, "J": 0, "P": 1}
+        }
+    },
+    {
+        "question": "Question 5",
+        "responseOne": {
+            "text": "q5a1",
+            "values": {"E": 1, "I": 0, "S": 0, "N": 1, "T": 1, "F": 0, "J": 1, "P": 0}
+        },
+        "responseTwo": {
+            "text": "q5a2",
+            "values": {"E": 0, "I": 1, "S": 1, "N": 0, "T": 0, "F": 1, "J": 0, "P": 1}
+        }
+    },
+    {
+        "question": "Question 6",
+        "responseOne": {
+            "text": "q6a1",
+            "values": {"E": 1, "I": 0, "S": 0, "N": 1, "T": 1, "F": 0, "J": 1, "P": 0}
+        },
+        "responseTwo": {
+            "text": "q6a2",
+            "values": {"E": 0, "I": 1, "S": 1, "N": 0, "T": 0, "F": 1, "J": 0, "P": 1}
+        }
+    },
+    {
+        "question": "Question 7",
+        "responseOne": {
+            "text": "q7a1",
+            "values": {"E": 1, "I": 0, "S": 0, "N": 1, "T": 1, "F": 0, "J": 1, "P": 0}
+        },
+        "responseTwo": {
+            "text": "q7a2",
+            "values": {"E": 0, "I": 1, "S": 1, "N": 0, "T": 0, "F": 1, "J": 0, "P": 1}
+        }
+    },
+    {
+        "question": "Question 8",
+        "responseOne": {
+            "text": "q8a1",
+            "values": {"E": 1, "I": 0, "S": 0, "N": 1, "T": 1, "F": 0, "J": 1, "P": 0}
+        },
+        "responseTwo": {
+            "text": "q8a2",
+            "values": {"E": 0, "I": 1, "S": 1, "N": 0, "T": 0, "F": 1, "J": 0, "P": 1}
+        }
+    },
+    {
+        "question": "Question 9",
+        "responseOne": {
+            "text": "q9a1",
+            "values": {"E": 1, "I": 0, "S": 0, "N": 1, "T": 1, "F": 0, "J": 1, "P": 0}
+        },
+        "responseTwo": {
+            "text": "q9a2",
+            "values": {"E": 0, "I": 1, "S": 1, "N": 0, "T": 0, "F": 1, "J": 0, "P": 1}
+        }
+    },
+    {
+        "question": "Question 10",
+        "responseOne": {
+            "text": "q10a1",
+            "values": {"E": 1, "I": 0, "S": 0, "N": 1, "T": 1, "F": 0, "J": 1, "P": 0}
+        },
+        "responseTwo": {
+            "text": "q10a2",
+            "values": {"E": 0, "I": 1, "S": 1, "N": 0, "T": 0, "F": 1, "J": 0, "P": 1}
+        }
+    }
 ]

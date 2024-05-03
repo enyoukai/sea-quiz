@@ -13,7 +13,6 @@ function App() {
         <Route path="/test" element={<Test/>} />
         <Route path="/results" element={<Results/>} />
       </Routes>
-
     </Router>
   )
 }
